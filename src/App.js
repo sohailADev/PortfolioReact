@@ -1,3 +1,4 @@
+import React from "react"
 import './App.css';
 import  "./Assets/css/style.css";
 import  "./Assets/css/bootstrap.min.css";
@@ -8,7 +9,7 @@ import Navbar from './Components/Navbar/Navbar'
 import { Route, Switch} from "react-router-dom";
 
 
-import React from "react"
+
 function App() {
   
   return (
@@ -19,6 +20,7 @@ function App() {
            <Route exact path="/" component={AboutMe} />
            <Route exact  path="/portfolio" component={Portfolio} />
            <Route exact path="/contact" component={Contact} />
+          
            {/* <Route
            exact
           path="/"

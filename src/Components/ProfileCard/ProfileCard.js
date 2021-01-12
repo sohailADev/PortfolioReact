@@ -28,7 +28,7 @@ const ProfileCard = () => (
     
     <Card id='cardProfile'>
       <CardImg top width="100%" src={Mainimg} alt="banner" />
-   <div class="card_bottom">
+   <div className="card_bottom">
       <CardBody >
 
   
